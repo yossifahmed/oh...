@@ -116,7 +116,7 @@ m.sendMessage(args)
     if (message.content === "b!invite") {
      const embed = new Discord.RichEmbed()
          .setColor("RANDOM")
-         .addField('Broadcast', `https://discordapp.com/api/oauth2/authorize?client_id=489960386339274771&permissions=8&scope=bot`)
+         .addField('Broadcast', ``)
      message.author.send({embed});
    
     }
@@ -127,7 +127,7 @@ m.sendMessage(args)
     if (message.content === "b!support") {
      const embed = new Discord.RichEmbed()
          .setColor("RANDOM")
-         .addField('❤سيرفر الدعم الفني', `  https://discord.gg/NuQ2zYu  `)
+         .addField('❤سيرفر الدعم الفني', `    `)
      message.author.send({embed});
    
     }
@@ -163,5 +163,5 @@ client.on('ready', () => {
           client.user.setActivity("b!help | b!invite",{type: 'WATCHING'});
   
   });
-
-client.login(process.env.TOKEN);
+    
+client.login("NTA4MzA5ODg0MTgyMjAwMzgw.Dr9Y2g.wK-IftxDSzj6zoyCMZZMDqNNjCY");
