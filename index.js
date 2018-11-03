@@ -102,36 +102,13 @@ m.sendMessage(args)
        b!obc | لأرسال برود كاست للكل
 
        b!bc  |  لأرسال برود كاست للأونلاين
-
-       b!invite | لدعوة البوت الي سيرفرك
-
-       b!support | سيرفر السبورت** `)
+** `)
    message.author.sendEmbed(embed)
    
    }
    });
 
 
-   client.on("message", message => {
-    if (message.content === "b!invite") {
-     const embed = new Discord.RichEmbed()
-         .setColor("RANDOM")
-         .addField('Broadcast', ``)
-     message.author.send({embed});
-   
-    }
-   });
-
-
-   client.on("message", message => {
-    if (message.content === "b!support") {
-     const embed = new Discord.RichEmbed()
-         .setColor("RANDOM")
-         .addField('❤سيرفر الدعم الفني', `    `)
-     message.author.send({embed});
-   
-    }
-   });
 
 
 
